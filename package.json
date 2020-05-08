@@ -25,14 +25,12 @@
   "dependencies": {
     "bindings": "~1.5.0",
     "debug": "4",
-    "nan": "^2.13.2",
-    "ref": "lxe/ref#node-12",
-    "ref-struct": "lxe/ref-struct#node-12"
+    "nan": "^2.14.1"
   },
   "devDependencies": {
     "fs-extra": "^7.0.1",
-    "mocha": "*",
-    "ref-array": "lxe/ref-array#node-12"
+    "mocha": "^7.1.2",
+    "ref-array": "github:lxe/ref-array#node-12"
   },
   "scripts": {
     "test": "node-gyp rebuild --directory test && mocha -gc --reporter spec"
