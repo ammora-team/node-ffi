@@ -1,7 +1,7 @@
 
 var assert = require('assert')
-  , ref = require('ref')
-  , Struct = require('ref-struct')
+  , ref = require('@ammora/ref')
+  , Struct = require('@ammora/ref-struct')
   , ffi = require('../')
   , Library = ffi.Library
 

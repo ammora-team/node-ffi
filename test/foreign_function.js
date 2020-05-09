@@ -1,8 +1,8 @@
 
 var assert = require('assert')
   , ref = require('ref')
-  , Array = require('ref-array')
-  , Struct = require('ref-struct')
+  , Array = require('@ammora/ref-array')
+  , Struct = require('@ammora/ref-struct')
   , ffi = require('../')
   , bindings = require('bindings')({ module_root: __dirname, bindings: 'ffi_tests' })
 

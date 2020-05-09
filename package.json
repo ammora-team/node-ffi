@@ -23,12 +23,13 @@
   },
   "main": "./lib/ffi",
   "dependencies": {
+    "@ammora/ref": "github:ammora-team/ref#node-13",
+    "@ammora/ref-struct": "github:ammora-team/ref-array#node-13",
     "bindings": "~1.5.0",
     "debug": "4",
     "nan": "^2.14.1"
   },
   "devDependencies": {
-    "@ammora/ref": "github:ammora-team/ref#node-13",
     "@ammora/ref-array": "github:ammora-team/ref-array#node-13",
     "fs-extra": "^7.0.1",
     "mocha": "^7.1.2"
